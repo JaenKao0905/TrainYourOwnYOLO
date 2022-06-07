@@ -76,5 +76,5 @@ if __name__ == "__main__":
     # Sort Dict by Values
     SortedLabelDict = sorted(labeldict.items(), key=lambda x: x[1])
     for elem in SortedLabelDict:
-        file.write(elem[0] + "\n")
+        file.write(str(elem[0]) + "\n")
     file.close()
